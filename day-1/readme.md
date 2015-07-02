@@ -15,13 +15,13 @@
 * Setup PHP
 * Setup Mysql & Mysql workbench
 * Configure apache and set up a virtual host.
-    ** enable mode_rewrite
-    ** include virtual hosts
+  * enable mode_rewrite
+  * include virtual hosts
 * Configure PHP
-    ** error_reporting = E_ALL & ~E_DEPRECATED
-    ** display_errors = 1
-    ** date.timezone = "Europe/Kiev"
-    ** short_open_tag = 0
+  * error_reporting = E_ALL & ~E_DEPRECATED
+  * display_errors = 1
+  * date.timezone = "Europe/Kiev"
+  * short_open_tag = 0
 * Configure Mysql workbench
 
 ## HTTP request and response examples
