@@ -1,4 +1,4 @@
-# Day 1 
+# Day 1
 
 Основы Web-программирования. Установка и настройка ПО (Apache, MySQL, PHP).
 
@@ -16,6 +16,8 @@
 * Setup Mysql & Mysql workbench
 * Configure apache and set up a virtual host.
   * enable mode_rewrite
+  * enable php
+  * update DirectoryIndex
   * include virtual hosts
 * Configure PHP
   * error_reporting = E_ALL & ~E_DEPRECATED
@@ -23,6 +25,19 @@
   * date.timezone = "Europe/Kiev"
   * short_open_tag = 0
 * Configure Mysql workbench
+
+### Enabling php in apache conf
+```
+LoadModule php5_module "D:/php/php5apache2_4.dll"
+AddHandler application/x-httpd-php .php
+# configure the path to php.ini
+PHPIniDir "D:/php"
+```
+```
+<IfModule dir_module>
+    DirectoryIndex index.php index.html
+</IfModule>
+```
 
 ## HTTP request and response examples
 
@@ -86,3 +101,24 @@ NameVirtualHost *:80
     </Directory>
 </VirtualHost>
 ```
+
+## Resources
+
+### XAMP
+https://www.apachefriends.org/index.html
+
+### Apache HTTP Server
+http://httpd.apache.org/docs/current/platform/windows.html#down
+http://www.apachelounge.com/download/
+
+### Mysql
+https://dev.mysql.com/downloads/windows/installer/5.6.html
+
+### PHP
+http://windows.php.net/download#php-5.6
+
+### Windows x64 or x86?
+http://stackoverflow.com/questions/12322308/batch-file-to-check-64bit-or-32bit-os
+
+### Setup step-by-step
+http://blog.denisbondar.com/post/apache24php56win7
