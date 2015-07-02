@@ -43,7 +43,7 @@ Accept: */*
 email=example.com&password=123132
 ```
 
-### Resonse
+### Response
 ```
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
