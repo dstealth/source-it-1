@@ -104,21 +104,16 @@ NameVirtualHost *:80
 
 ## Resources
 
-### XAMP
+* XAMP:
 https://www.apachefriends.org/index.html
-
-### Apache HTTP Server
+* Apache HTTP Server:
 http://httpd.apache.org/docs/current/platform/windows.html#down
 http://www.apachelounge.com/download/
-
-### Mysql
+* Mysql:
 https://dev.mysql.com/downloads/windows/installer/5.6.html
-
-### PHP
+* PHP:
 http://windows.php.net/download#php-5.6
-
-### Windows x64 or x86?
+* Windows x64 or x86?
 http://stackoverflow.com/questions/12322308/batch-file-to-check-64bit-or-32bit-os
-
-### Setup step-by-step
+* Setup step-by-step:
 http://blog.denisbondar.com/post/apache24php56win7

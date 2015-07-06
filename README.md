@@ -25,3 +25,7 @@
 * [Day 1](/day-1) — Основы Web-программирования. Установка и настройка ПО (Apache, MySQL, PHP).
 * [Day 2](/day-2) — Основы HTML, формы, HTTP-методы, GET & POST, загрузка файлов на сервер при помощи форм.
 
+## Usefull links
+
+* Configuring MySQL to use minimal memory:
+http://www.tocker.ca/2014/03/10/configuring-mysql-to-use-minimal-memory.html
