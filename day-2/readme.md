@@ -12,7 +12,7 @@
 4. What differences between block and inline tags?
 5. What are HTTP methods? Why are they needed?
 
-## Part 2: PHP
+## Part 2: PHP Basics
 
 1. How does the PHP work?
   * What does it mean "Interpreted"?
@@ -38,11 +38,6 @@
     * [Logical](http://php.net/manual/ru/language.operators.logical.php)
   * array:
     * [Array operators](http://php.net/manual/ru/language.operators.array.php) (+, ==, ===, !=, !==)
-7. Functions
-  * todo: more here
-6. How are GET & POST represented in PHP?
-7. How are uploaded files represented in php?
-8. How to process uploaded file in PHP?
 
 ## Resources
 
