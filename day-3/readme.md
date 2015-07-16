@@ -1,4 +1,4 @@
-# Day 2
+# Day 3
 
 1. Специфика языка программирования PHP: синтаксис, переменные, константы, типы данных, выражения, операции, приоритет выполнения операций, операторы инкремента и декремента, регулярные выражения *(Part 2)*.
 2. Массивы и циклы: работа с массивами, доступ к данным, сортировка, глобальные массивы, циклы for, while, do…while, foreach.
@@ -19,13 +19,3 @@
 5. How are uploaded files represented in php? (http://php.net/manual/en/reserved.variables.files.php)
 6. How to process uploaded file in PHP?
   * [Home task](home/1. Uploading a file.md)
-
-## Part 2: Arrays & Cycles
-
-1. [Control Structures](http://php.net/manual/en/language.control-structures.php)
-  * [while](http://php.net/manual/en/control-structures.while.php), [do-while](http://php.net/manual/en/control-structures.do.while.php)
-  * [for](http://php.net/manual/en/control-structures.for.php)
-  * [foreach](http://php.net/manual/en/control-structures.foreach.php)
-  * [break](http://php.net/manual/en/control-structures.break.php), [continue](http://php.net/manual/en/control-structures.continue.php)
-  * [switch](http://php.net/manual/en/control-structures.switch.php)
-  * [Practice: Task 2](tasks/2. Cycles.md)
