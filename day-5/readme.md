@@ -2,15 +2,25 @@
 
 1. Практика: импорт продуктов.
 
-Компания-поставщик предоставляет CSV-файл со списком товаров. Пример: [products.csv].
+Компания-поставщик предоставляет CSV-файл со списком товаров. Пример: [products.csv](products.csv).
 Необходимо предоставить возможность загрузки файла.
 После загрузки файл должен быть обработан. Информацию о каждом товаре необходимо сохранить в отдельный файл в папке "products" на сервере.
 
 Файл должен иметь следующий вид:
 {sku}.txt
 ```
-sku:%sku%
-product_name:%product_name%
+sku:51q997
+name:Preppy Shorts
+description:97% Baumwolle / 3% Elastan
+is_enabled:yes
+is_in_stock:yes
+qty:45
+price:79.95
+special_price:
+size:27
+color_id:890
+color:black
+image_url:http://cdn.richandroyal.de/media/external/D/51q997_890_1_455.jpg
 ...
 ```
 
