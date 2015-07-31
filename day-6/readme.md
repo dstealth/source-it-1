@@ -11,6 +11,8 @@
 * [setcookie()](http://ua2.php.net/manual/en/function.setcookie.php)
 * [$_COOKIE](http://ua2.php.net/manual/en/reserved.variables.cookies.php)
 * [header()](http://ua2.php.net/manual/en/function.header.php)
+* [PHP Sessions on w3schools](http://www.w3schools.com/php/php_sessions.asp)
+* [PHP Cookies on w3schools](http://www.w3schools.com/php/php_cookies.asp)
 
 ## Hometask
 
